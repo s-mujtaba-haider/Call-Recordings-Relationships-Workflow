@@ -1,4 +1,4 @@
-# Call-Recordings-Relationships-Workflow
+# End-to-End Call Processing Pipeline with Neo4j Graph & AI Insights
 This workflow is an end-to-end AI-powered call intelligence system built in n8n that transforms raw call webhook data into structured, actionable insights. It starts by receiving call events, extracting key details such as caller, callee, duration, and recording metadata, and storing them in a Neo4j graph database. By modeling calls and phone numbers as nodes, the system creates a connected data layer that represents real communication patterns.
 
 Beyond simple storage, the workflow performs identity resolution, mapping phone numbers to real people using direct matches and email-based enrichment. It builds meaningful relationships such as who initiated the call and who was reached, linking them to person entities in the graph. This enables a CRM-like view where every interaction is connected, searchable, and continuously enriched over time.
